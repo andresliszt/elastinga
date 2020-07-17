@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "elastinga"
+version = "0.1.0"
+description = ""
+authors = ["Andrés Sandoval <andres.sandoval@alumnos.usm.cl>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+elasticsearch_dsl = "^7.2.1"
+structlog = "^20.1.0"
+python-dotenv = "^0.14.0"
+pydantic = "^1.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+colorama = "^0.4.3"
+pylint = "^2.5.3"
+black = "^19.10b0"
+ipython = "^7.16.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
